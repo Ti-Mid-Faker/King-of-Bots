@@ -1,17 +1,21 @@
 <template>
-  <HelloWorld/>
+  <NavBar />
+  <router-view/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+  import NavBar from '@/components/NavBar.vue'
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
+  export default {
+    components: {
+      NavBar
+    }
   }
-}
 </script>
 
 <style>
+  body {
+    background-image: url('./assets/backimg.png');
+    background-size: cover;
+  }
 </style>
