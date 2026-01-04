@@ -18,7 +18,6 @@ export default {
 .playground {
     width: 70vw;
     height: 70vh;
-    background-color: lightblue;
     margin: 60px auto;
 }
 </style>
