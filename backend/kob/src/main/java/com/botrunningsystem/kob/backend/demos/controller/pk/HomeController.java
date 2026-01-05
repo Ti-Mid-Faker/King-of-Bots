@@ -1,4 +1,4 @@
-package com.botrunningsystem.kob.backend.demos.controller;
+package com.botrunningsystem.kob.backend.demos.controller.pk;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
